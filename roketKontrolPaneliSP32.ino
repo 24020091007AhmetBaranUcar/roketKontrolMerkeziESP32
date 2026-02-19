@@ -151,7 +151,7 @@ void loop() {
   else if(LAUNCH_STATUS == STATUS_COUNTDOWN) {
     digitalWrite(START_BUTTON_LED, HIGH);
 
-    for(int8_t t = 	COUNTDOWN_START; t>0; t--) {
+    for(int8_t t = 	COUNTDOWN_START; t>=0; t--) {
       //Update Telemetry
       flight_data.time_sec = t;
       flight_data.engine_temp_c = read_sensors();
