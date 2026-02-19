@@ -84,3 +84,45 @@ Success LED: GPIO 13
 
 Abort LED: GPIO 27
 
+------------------------------------------------------------------------------------
+README FILE IN ENGLISH:
+
+# 🚀 ESP32 Rocket Launch Control System (Simulation)
+
+ESP32-based rocket launch simulator with real-time telemetry 
+and safety-critical abort mechanisms.
+
+## Features
+- ⏱️ 10-second countdown sequence
+- 📊 Real-time sensor monitoring (temp, pressure, fuel)
+- 🚨 Automatic abort on critical thresholds
+- 🔴 Manual abort button
+- 📈 Physics-based flight simulation
+- ✨ LED status indicators
+- 🎯 Kármán Line (100km) detection
+
+## Hardware
+- ESP32 DevKit
+- 2x Push buttons (START/ABORT)
+- 2x LEDs (Green/Red)
+- Breadboard & jumper wires
+
+## Tech Stack
+- C/C++ (Arduino framework)
+- Embedded systems programming
+- State machine design
+- Bitwise operations
+- Real-time control systems
+
+## Build & Flash
+```bash
+arduino-cli compile --fqbn esp32:esp32:esp32 .
+arduino-cli upload -p /dev/ttyUSB0 --fqbn esp32:esp32:esp32 .
+```
+
+## Author
+Baran - Aspiring embedded systems engineer
+
+## License
+MIT
+```
