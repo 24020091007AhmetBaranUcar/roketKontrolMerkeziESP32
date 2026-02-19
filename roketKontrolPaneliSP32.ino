@@ -6,7 +6,7 @@
 // ========== CONSTANTS ==========
 #define COUNTDOWN_START     10
 #define MAX_TEMP_C          85
-#define MIN_FUEL_PERCENT    95
+#define MIN_FUEL_PERCENT    20
 #define MAX_PRESSURE_BAR    150
 #define GRAVITY 9.81
 #define LOG_FILE "telemetry.txt"
